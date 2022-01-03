@@ -8,7 +8,7 @@
     "serve": "nodemon ./src/index.js",
     "test": "test"
   },
-  "type":"module",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZachariBarnes/NodeStarterRepo.git"
@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/ZachariBarnes/NodeStarterRepo#readme",
   "dependencies": {
-    "got": "^12.0.0"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "got": "^12.0.0",
+    "npmlog": "^6.0.0"
   },
   "devDependencies": {
     "eslint": "^7.15.0",

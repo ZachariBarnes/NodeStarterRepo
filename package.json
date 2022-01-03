@@ -8,6 +8,7 @@
     "serve": "nodemon ./src/index.js",
     "test": "test"
   },
+  "type":"module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZachariBarnes/NodeStarterRepo.git"
@@ -18,13 +19,15 @@
     "url": "https://github.com/ZachariBarnes/NodeStarterRepo/issues"
   },
   "homepage": "https://github.com/ZachariBarnes/NodeStarterRepo#readme",
-  "dependencies": {},
+  "dependencies": {
+    "got": "^12.0.0"
+  },
   "devDependencies": {
     "eslint": "^7.15.0",
-    "nodemon": "^2.0.7",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1"
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "nodemon": "^2.0.7"
   }
 }

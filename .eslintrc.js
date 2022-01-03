@@ -23,5 +23,6 @@ module.exports = {
     'nonblock-statement-body-position': 0,
     'no-lonely-if': 0,
     'brace-style': 0,
+    'import/no-unresolved': 0,
   },
 };
